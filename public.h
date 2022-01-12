@@ -34,3 +34,5 @@ void testPairToNumber(
     enum MajorColor major,
     enum MinorColor minor,
     int expectedPairNumber);
+
+void printRefernceManual()
