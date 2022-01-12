@@ -9,3 +9,14 @@ void testNumberToPair(int pairNumber,
     assert(colorPair.majorColor == expectedMajor);
     assert(colorPair.minorColor == expectedMinor);
 }
+
+ColorPair GetColorFromPairNumber(int pairNumber) 
+{
+    ColorPair colorPair;
+    int zeroBasedPairNumber = pairNumber - 1;
+    colorPair.majorColor = 
+        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
+    colorPair.minorColor =
+        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+    return colorPair;
+}
