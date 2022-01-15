@@ -13,7 +13,7 @@ void printReferenceManual(void)
 	{
 		for (MinorColorIndex = 0; MinorColorIndex < numberOfMinorColors; MinorColorIndex++)
 		{
-			printf("%d\t\t%s\t\t%s\n", ++PairNumber, MajorColor[MajorColorIndex], MinorColor[MinorColorIndex]);
+			printf("%d\t\t%s\t\t%s\n", ++PairNumber, MajorColorNames[MajorColorIndex], MinorColorNames[MinorColorIndex]);
 		}
 	}
 }
