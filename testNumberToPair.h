@@ -1,7 +1,7 @@
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
-const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet"};
+const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
 
@@ -16,6 +16,6 @@ typedef struct
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
-void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor);
+void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern void ColorPairToString(const ColorPair* colorPair, char* buffer)
