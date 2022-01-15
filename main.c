@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <assert.h>
-#include "public.h"
+#include "main.h"
 
-int main() {
+int main() 
+{
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
