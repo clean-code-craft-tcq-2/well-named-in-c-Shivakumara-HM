@@ -10,7 +10,7 @@ void getReferenceManual(void)
 {
 	int MajorColorIndex = 0, MinorColorIndex = 0, PairNumber = 0;
 	printf("\n---------------------------------------------\n");
-	printf("\tREFERENCE MANAUAL");
+	printf("\tREFERENCE MANUAL");
 	printf("\n---------------------------------------------\n");
 	printf("PAIR NO.\t MAJOR COLOR\t MINOR COLOR\n");
 	printf("\n---------------------------------------------\n");
