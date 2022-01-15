@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "getReferenceManual.h"
 
-void getReferenceManual(void)
+void printReferenceManual(void)
 {
 	int MajorColorIndex = 0, MinorColorIndex = 0, PairNumber = 0;
 	printf("\n---------------------------------------------\n");
