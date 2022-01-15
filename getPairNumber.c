@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "public.h"
+#include "getPaiNumber.h"
 
 void testPairToNumber(
     enum MajorColor major,
