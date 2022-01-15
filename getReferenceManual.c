@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "getRefereceManual.h"
 
 void getReferenceManual(void)
 {
