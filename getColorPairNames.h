@@ -14,4 +14,5 @@ typedef struct
     enum MinorColor minorColor;
 } ColorPair;
 
+void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 ColorPair GetColorFromPairNumber(int pairNumber);
