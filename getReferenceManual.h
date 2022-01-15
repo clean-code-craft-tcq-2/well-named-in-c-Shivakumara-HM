@@ -1,8 +1,8 @@
 
-const char* MajorColor[] = { "White", "Red", "Black", "Yellow", "Violet" };
-const char* MinorColor[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
+extern const char* MajorColor[] = { "White", "Red", "Black", "Yellow", "Violet" };
+extern const char* MinorColor[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
 
-int numberOfMajorColors = sizeof(MajorColor) / sizeof(MajorColor[0]);
-int numberOfMinorColors = sizeof(MinorColor) / sizeof(MinorColor[0]);
+extern int numberOfMajorColors = sizeof(MajorColor) / sizeof(MajorColor[0]);
+extern int numberOfMinorColors = sizeof(MinorColor) / sizeof(MinorColor[0]);
 
 void getReferenceManual(void);
