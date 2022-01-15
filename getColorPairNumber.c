@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "getColorPaiNumber.h"
+#include "getColorPairNumber.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) 
 {
