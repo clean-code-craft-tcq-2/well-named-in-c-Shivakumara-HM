@@ -15,3 +15,4 @@ typedef struct
 } ColorPair;
 
 void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
+extern int GetPairNumberFromColor(const ColorPair* colorPair);
