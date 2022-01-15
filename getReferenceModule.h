@@ -1,4 +1,3 @@
-int PairNumber;
 
 const char* MajorColor[] = { "White", "Red", "Black", "Yellow", "Violet" };
 const char* MinorColor[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
