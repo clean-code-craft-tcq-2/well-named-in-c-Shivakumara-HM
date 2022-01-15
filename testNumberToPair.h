@@ -14,4 +14,8 @@ typedef struct
     enum MinorColor minorColor;
 } ColorPair;
 
+const int MAX_COLORPAIR_NAME_CHARS = 16;
+
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor);
+extern ColorPair GetColorFromPairNumber(pairNumber);
+       ColorPairToString(&colorPair, colorPairNames);
