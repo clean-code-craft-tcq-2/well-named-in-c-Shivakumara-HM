@@ -1,4 +1,4 @@
-enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+extern enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 extern const char* MajorColorNames[];
@@ -14,4 +14,4 @@ typedef struct
 } ColorPair;
 
 void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
-extern int GetPairNumberFromColor(const ColorPair* colorPair);
+int GetPairNumberFromColor(const ColorPair* colorPair);
